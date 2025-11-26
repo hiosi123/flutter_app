@@ -6,9 +6,12 @@ void main() {
   // MaterialApp is the main widget
   runApp(
     // constructor function
-    MaterialApp(
+    const MaterialApp(
       home: Scaffold(
-        body: GradientContainer(),
+        body: GradientContainer(
+          Colors.red,
+          Colors.black,
+        ),
       ),
     ),
   ); // executing the function
